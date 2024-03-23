@@ -1,0 +1,6 @@
+PassengerAppRoot "/home/gorkhahouse/test.gorkharealestate.com"
+PassengerBaseURI "/"
+PassengerPython "/home/gorkhahouse/virtualenv/test.gorkharealestate.com/3.9/bin/python"
+
+<IfModule Litespeed>
+</IfModule>
