@@ -34,6 +34,7 @@ class BlogDetailPage(generic.DetailView):
     def post(self, request, *args, **kwargs):
         data = request.POST
         files = request.FILES
+
         instance = self.get_object()
 
         BlogComment.objects.create(

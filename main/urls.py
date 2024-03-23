@@ -22,6 +22,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("tinymce/", include("tinymce.urls")),
     path("", include("blogs.urls")),
+    path("api/", include("apis.urls")),
 ]
 
 from django.conf import settings
